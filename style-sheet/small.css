@@ -1,0 +1,40 @@
+.title {
+  font-size: 12px;
+}
+.links-page a {
+  border-radius: 13px;
+  padding: 3px 5px;
+  font-size: 10px;
+  margin: 0 5px;
+}
+header p {
+  margin: 30px auto;
+  font-size: 12px;
+}
+h1 {
+  font-size: 20px;
+}
+.links-media a {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  img {
+    width: 16px;
+  }
+}
+h2 {
+  font-size: 12px;
+}
+.portfolio-p {
+  font-size: 15px;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+.project {
+  margin: 20px auto;
+}

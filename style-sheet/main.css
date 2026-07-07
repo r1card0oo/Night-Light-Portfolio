@@ -1,0 +1,146 @@
+:root {
+  --mainColor: rgb(18,255,199);
+  --secondaryColor: rgb(95,95,95);
+  --fontColor: white;
+}
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Tahoma";
+  color: var(--fontColor);
+  margin: 0 auto;
+  padding: 0px;
+  font-family: "Tahoma";
+}
+* {
+  box-sizing: border-box;
+}
+*::selection, a:hover {
+  background: var(--mainColor);
+  color: var(--fontColor);
+}
+.main-color {
+  color: var(--mainColor);
+}
+h2 {
+  color: var(--secondaryColor);
+  text-align: center;
+}
+p {
+  text-align: center;
+  color: var(--fontColor);
+}
+nav {
+  background-color: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  * {
+    display: inline-block;
+  }
+}
+.links-page a {
+  color: var(--fontColor);
+  border: 2px solid var(--mainColor);
+  text-decoration: none;
+}
+header {
+  text-align: center;
+  padding: 30px;
+}
+.links-media a {
+  border: 2px solid var(--secondaryColor);
+}
+.portfolio {
+  background-color: #121212;
+}
+.project {
+  display: inline-block;
+  border: 2px solid var(--mainColor);
+  border-radius: 10px;
+  width: 280px;
+  height: 340px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition-duration: 0.5s;
+}
+.project:hover {
+  width: 300px;
+  height: 350px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.about {
+  background-color: #191919;
+  padding: 20px 0;
+}
+img {
+  width: 20px;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+.skills-p {
+  color: var(--secondaryColor);
+}
+.skill {
+  display: inline-block;
+  font-size: 13px;
+  padding: 5px;
+  border: 3px solid var(--mainColor);
+  color: var(--fontColor);
+}
+footer {
+  padding: 20px;
+}
+footer * {
+  color: var(--secondaryColor);
+  text-decoration: none;
+}
+h3 {
+  color: var(--fontColor);
+}
+.portfolio, .about {
+  padding: 20px 0;
+}
+.profile {
+  position: relative;
+  border: 3px solid var(--mainColor);
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 240px;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+.image-profile img {
+  width: 200px;
+  z-index: -1;
+}
+.code {
+  position: absolute;
+  background-color: black;
+  border: 2px solid  var(--mainColor);
+  border-radius: 50%;
+  width: 100px;
+  bottom: -20px;
+  right: -20px;
+}
+.about-text p {
+  background-color: var(--fontColor);
+  font-size: 12px;
+  width: 250px;
+  padding: 5px;
+  padding-left: 10px;
+  margin: 30px auto;
+  text-align: left;
+  border-bottom: 2px solid var(--mainColor);
+  border-left: 5px solid var(--mainColor);
+  color: #222;
+}
