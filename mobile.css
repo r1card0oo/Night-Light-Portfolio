@@ -1,0 +1,24 @@
+.links-page a {
+  border-radius: 13px;
+  padding: 3px 5px;
+  font-size: 15px;
+  margin: 0 5px;
+}
+.links-media a {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  img {
+    width: 16px;
+  }
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+.project {
+  margin: 20px auto;
+}
